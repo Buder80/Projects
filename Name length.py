@@ -1,6 +1,6 @@
 #Przemyslaw Budrewicz
 #25/09/2022
-#Name lenght
+#Name length
 
 name = input("Please enter your first name: ")
 length = len(name)  #number of characters in the name
