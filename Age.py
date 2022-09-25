@@ -7,7 +7,7 @@ num = 0 #loop one try is not nice :)
 while num < 5:
 
     age = int(input("How old You are?"))
-    print(age)
+    print("You have", age, "years old.")
 
     if age >= 18:
         print("You can vote.")
