@@ -12,7 +12,7 @@ def additional(): #This function draws two numbers between 5-20
     correct_sum = num1 + num2
     print("Please add these two numbers", num1, "with", num2)
     sum = int(input("Enter the result: "))
-    print("Your score is:",sum, "correct is:", correct_sum)
+    # print("Your score is:",sum, "correct is:", correct_sum)
     if correct_sum == sum:
         print("Your answer is Correct!!")
     else:
@@ -27,7 +27,7 @@ def subtraction():#This function draws two numbers between 25-50, 1-25
     correct_sum = num1 - num2
     print("Please subtract these numbers from each other ", num1, "with", num2)
     sum = int(input("Enter the result: "))
-    print("Your score is:", sum, "correct is:", correct_sum)
+    # print("Your score is:", sum, "correct is:", correct_sum)
     if correct_sum == sum:
         print("Your answer is Correct!!")
     else:
